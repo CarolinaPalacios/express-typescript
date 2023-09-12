@@ -1,7 +1,6 @@
 import { Router } from 'express'
-const router = Router()
-
 import diariesRouter from './diaries'
+const router = Router()
 
 router.use('/diaries', diariesRouter)
 
